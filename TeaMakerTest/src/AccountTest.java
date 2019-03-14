@@ -73,7 +73,7 @@ public class AccountTest {
    }
    
    @Test
-   public void testinValidrangeInclusive2() throws ParseException{
+   public void testinValidrangeExclusive() throws ParseException{
 	   DateFormat formatter = new SimpleDateFormat("dd-MMM-yy");
 	   String str_start = "17-Jan-03";
 	   String str_end = "01-Jan-03";
